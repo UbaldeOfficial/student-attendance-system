@@ -2,6 +2,11 @@ Student Attendance System
 Project Overview
 A complete web-based Student Attendance Management System built with PHP and MySQL. This system allows administrators, teachers, and students to manage and track attendance records in an educational institution.
 
+Live Demo
+Live Application URL: https://studentattendancee.rf.gd/
+
+GitHub Repository: https://github.com/UbaldeOfficial/student-attendance-system
+
 Features
 Role-Based Access Control: Three user roles (Admin, Teacher, Student)
 
@@ -12,6 +17,37 @@ User Management: Admins can manage all users and courses
 Reports & Analytics: Generate attendance reports and statistics
 
 Secure Authentication: Password encryption and session management
+
+Live Application Access
+Test Credentials:
+Administrator
+URL: https://studentattendancee.rf.gd/
+
+Username: admin
+
+Password: 123456
+
+Email: admin@school.rw
+
+Teacher
+URL: https://studentattendancee.rf.gd/
+
+Username: teacher1
+
+Password: 123456
+
+Email: teacher@school.rw
+
+Student
+URL: https://studentattendancee.rf.gd/
+
+Username: student1
+
+Password: 123456
+
+Email: student@school.rw
+
+Note: Additional test accounts include teacher2-teacher5 and student2-student30 with the same password.
 
 User Roles & Functions
 Administrator
@@ -68,28 +104,6 @@ define('DB_HOST', 'your_host');
 define('DB_NAME', 'your_database');
 define('DB_USER', 'your_username');
 define('DB_PASS', 'your_password');
-4. Default Login Credentials
-Administrator
-Username: admin
-
-Password: 123456
-
-Email: admin@school.rw
-
-Teacher
-Username: teacher1
-
-Password: 123456
-
-Email: teacher@school.rw
-
-Student
-Username: student1
-
-Password: 123456
-
-Email: student@school.rw
-
 Project Structure
 text
 student-attendance-system/
@@ -169,6 +183,8 @@ Clean error messages (no raw errors displayed)
 Graceful error recovery
 
 Testing Instructions
+Visit: https://studentattendancee.rf.gd/
+
 Login as admin to manage the system
 
 Login as teacher to mark attendance
@@ -180,6 +196,17 @@ Test all CRUD operations
 Verify form validations
 
 Check session security by attempting to access protected pages without login
+
+Deployment Information
+Hosting Provider: InfinityFree (Free Hosting)
+
+Domain: studentattendancee.rf.gd
+
+PHP Version: PHP 8.3+
+
+MySQL Version: MySQL 5.7+
+
+Deployment Date: December 2025
 
 Troubleshooting
 Common Issues
@@ -209,6 +236,8 @@ All files are in a single folder for easy deployment
 
 Code follows procedural programming style
 
+Successfully deployed on InfinityFree hosting
+
 Browser Compatibility
 Chrome (latest)
 
@@ -218,19 +247,24 @@ Safari (latest)
 
 Edge (latest)
 
+Assignment Information
+Course: Backend Development Using PHP
+
+Institution: Rwanda Polytechnic
+
+Program: Information and Communication Technology
+
+Academic Year: 2025
+
+Submission Deadline: December 14, 2025
+
 License
 Educational Use Only - Rwanda Polytechnic Assignment
 
 Support
-For technical issues, check the PHP error logs and verify:
+For technical issues with the live application, visit: https://studentattendancee.rf.gd/
 
-Database connection settings
-
-File permissions
-
-PHP version compatibility
-
-Database table structure
+For source code access, visit: https://github.com/YOUR-USERNAME/student-attendance-system
 
 Acknowledgments
 Rwanda Polytechnic Backend Development Course
@@ -239,5 +273,10 @@ PHP and MySQL documentation
 
 Open source community resources
 
+InfinityFree hosting services
+
 Version
-1.0.0 - Initial Release (December 2025)"# student-attendance-system" 
+1.0.0 - Initial Release (December 2025)
+
+Live Application: https://studentattendancee.rf.gd/
+Source Code: https:https://github.com/UbaldeOfficial/student-attendance-system
