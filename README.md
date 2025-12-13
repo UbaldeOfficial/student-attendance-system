@@ -1,0 +1,243 @@
+Student Attendance System
+Project Overview
+A complete web-based Student Attendance Management System built with PHP and MySQL. This system allows administrators, teachers, and students to manage and track attendance records in an educational institution.
+
+Features
+Role-Based Access Control: Three user roles (Admin, Teacher, Student)
+
+Attendance Management: Teachers can mark student attendance
+
+User Management: Admins can manage all users and courses
+
+Reports & Analytics: Generate attendance reports and statistics
+
+Secure Authentication: Password encryption and session management
+
+User Roles & Functions
+Administrator
+Manage all users (add, edit, delete)
+
+Manage courses and assign teachers
+
+View system-wide reports
+
+Access all attendance records
+
+Teacher
+Mark attendance for assigned courses
+
+View student attendance records
+
+Generate class reports
+
+Manage own courses
+
+Student
+View personal attendance records
+
+Check attendance statistics
+
+View enrolled courses
+
+Update personal profile
+
+Technical Requirements
+PHP 7.4 or higher
+
+MySQL 5.7 or higher
+
+Web server (Apache/Nginx)
+
+PDO extension enabled
+
+Installation Instructions
+1. Database Setup
+sql
+-- Run the database.sql file in your MySQL server
+-- This will create all necessary tables and sample data
+2. File Upload
+Upload all PHP files to your web server
+
+Ensure proper file permissions (755 for directories, 644 for files)
+
+3. Configuration
+Edit config.php with your database credentials:
+
+php
+define('DB_HOST', 'your_host');
+define('DB_NAME', 'your_database');
+define('DB_USER', 'your_username');
+define('DB_PASS', 'your_password');
+4. Default Login Credentials
+Administrator
+Username: admin
+
+Password: 123456
+
+Email: admin@school.rw
+
+Teacher
+Username: teacher1
+
+Password: 123456
+
+Email: teacher@school.rw
+
+Student
+Username: student1
+
+Password: 123456
+
+Email: student@school.rw
+
+Project Structure
+text
+student-attendance-system/
+├── config.php              # Database configuration
+├── index.php              # Home page with login
+├── login.php              # Login processing
+├── dashboard.php          # Main dashboard
+├── logout.php             # Logout functionality
+├── admin.php              # Admin panel
+├── teacher.php            # Teacher panel
+├── student.php            # Student panel
+├── mark_attendance.php    # Mark attendance (CRUD)
+├── manage_users.php       # User management (CRUD)
+├── manage_courses.php     # Course management (CRUD)
+├── view_attendance.php    # View attendance records
+├── reports.php            # Reports and analytics
+├── my_attendance.php      # Student attendance view
+├── my_courses.php         # Student courses view
+├── profile.php            # User profile management
+├── database.sql           # Database schema and data
+└── assets/                # CSS and JavaScript files
+Database Schema
+The system uses 4 main tables:
+
+users - Stores all user accounts
+
+students - Student-specific information
+
+courses - Course details and schedules
+
+attendance - Attendance records
+
+Security Features
+Password encryption using PHP password_hash()
+
+PDO prepared statements to prevent SQL injection
+
+Session-based authentication
+
+Input validation and sanitization
+
+Role-based access control
+
+Secure logout with session destruction
+
+Features Implemented
+1. CRUD Operations
+Users: Create, Read, Update, Delete user accounts
+
+Courses: Manage courses and assign teachers
+
+Attendance: Mark, view, and update attendance records
+
+2. Form Validation
+Required field validation
+
+Email format validation
+
+Unique username/email checks
+
+User-friendly error messages
+
+3. Session Management
+Secure login/logout
+
+Session timeout handling
+
+Protected pages require authentication
+
+Role-based redirects
+
+4. Error Handling
+Try-catch blocks for database operations
+
+Clean error messages (no raw errors displayed)
+
+Graceful error recovery
+
+Testing Instructions
+Login as admin to manage the system
+
+Login as teacher to mark attendance
+
+Login as student to view attendance records
+
+Test all CRUD operations
+
+Verify form validations
+
+Check session security by attempting to access protected pages without login
+
+Troubleshooting
+Common Issues
+Connection Error: Check database credentials in config.php
+
+Login Failed: Verify user exists in database and password is correct
+
+Session Issues: Ensure cookies are enabled and session storage is writable
+
+Permission Errors: Check file permissions on server
+
+Solutions
+Verify database server is running
+
+Check PHP error logs for detailed error messages
+
+Ensure all required PHP extensions are enabled (PDO, mysqli)
+
+Confirm database tables are properly created
+
+Development Notes
+Built with vanilla PHP (no external frameworks)
+
+Uses inline CSS for simplicity
+
+All files are in a single folder for easy deployment
+
+Code follows procedural programming style
+
+Browser Compatibility
+Chrome (latest)
+
+Firefox (latest)
+
+Safari (latest)
+
+Edge (latest)
+
+License
+Educational Use Only - Rwanda Polytechnic Assignment
+
+Support
+For technical issues, check the PHP error logs and verify:
+
+Database connection settings
+
+File permissions
+
+PHP version compatibility
+
+Database table structure
+
+Acknowledgments
+Rwanda Polytechnic Backend Development Course
+
+PHP and MySQL documentation
+
+Open source community resources
+
+Version
+1.0.0 - Initial Release (December 2025)"# student-attendance-system" 
