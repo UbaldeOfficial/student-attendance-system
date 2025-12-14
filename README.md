@@ -1,4 +1,9 @@
 Student Attendance System
+
+Group Members
+Ubalde IBYIMANIKORA - 24RP05770
+Docile IMBEREYEMASO - 24RP05672
+
 Project Overview
 A complete web-based Student Attendance Management System built with PHP and MySQL. This system allows administrators, teachers, and students to manage and track attendance records in an educational institution.
 
