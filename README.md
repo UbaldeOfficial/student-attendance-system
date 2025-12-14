@@ -28,7 +28,7 @@ Test Credentials:
 Administrator
 URL: https://studentattendancee.rf.gd/
 
-Username: admin
+Username: ubaadmin
 
 Password: 123456
 
